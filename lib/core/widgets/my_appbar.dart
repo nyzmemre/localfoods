@@ -1,7 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
- class MyAppbar extends StatelessWidget implements PreferredSizeWidget {
+import '../constants/colors.dart';
+
+class MyAppbar extends StatelessWidget implements PreferredSizeWidget {
   final Widget? title;
   @override
   final Size preferredSize;
@@ -15,7 +17,7 @@ import 'package:flutter/material.dart';
     return AppBar(
       centerTitle: true,
       title: title,
+      backgroundColor: kAppbarColor,
     );
   }
-
 }

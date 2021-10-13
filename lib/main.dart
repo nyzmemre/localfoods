@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'core/constants/texts.dart';
 import 'core/widgets/my_appbar.dart';
-import 'pages/view_homepage.dart';
+import 'screens/view_homepage.dart';
 
 void main() {
   runApp(LocalFoods());
