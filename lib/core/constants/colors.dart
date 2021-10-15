@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-const Color kAppbarColor=Colors.amber;
+const Color kAppbarColor=Color(0xFF002345);
